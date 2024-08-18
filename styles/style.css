@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-text-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* sheared style */
+.display-flex{
+    display: flex;
+}
+.bg-color{
+    background-color: rgba(17, 17, 17, 1);
+}
+.white-text{
+    color: #FFFFFF;
+}
+.gray-text{
+    color: rgba(255, 255, 255, 0.5);
+}
+.btn-primary{
+    color: #FFFFFF;
+    background-color: #E6533C;
+}
+
+/* header part */
+header{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+.navber{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.company-name{
+    color: #E6533C;
+    font-size: 2.25rem;
+    font-weight: 900;
+}
+.navber-btn{
+    list-style: none;
+    border: 0.01px solid rgba(255, 255, 255, 0.18);
+    border-radius: 39px;
+    padding: 12px 5px 12px 3px;
+}
+.nav-link{
+    font-size: 1.12rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 47px;
+}
+.nav-links{
+    font-size: 1.12rem;
+    font-weight: 400;
+    margin-left: 0px;
+    border: 1px solid #E6533C;
+    border-radius: 46px;
+    padding: 8px 20px;
+    text-decoration: none;
+    margin: 0 auto;
+}
+.fa-bars{
+    font-size: 20px;
+    color: #FFFFFF;
+    opacity: 0;
+}
+.a{
+    align-items: center;
+}
+
+/* media quarry for mobile*/
+/* media quarry for mobile*/
+
+@media screen and (max-width: 576px){
+    .navber{
+        flex-direction: column;
+
+    }
+    .navber-btn{
+        margin-top: -80px;
+        opacity: 0;
+    }
+    .nav-link{
+        margin-left: 10px;
+    }
+    .a{
+        max-width: 576px;
+        margin: 0 auto;
+        align-items: center;
+        gap: 370px
+    }
+    .fa-bars{
+        font-size: 20px;
+        color: #FFFFFF;
+        margin-right: 20px;
+        opacity: 100;
+    }
+}
+/* media quarry for tablet */
+/* media quarry for tablet */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    
+}
