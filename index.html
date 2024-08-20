@@ -7,58 +7,81 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
-<body class="inter-text-font bg-color">
+<body class="inter-text-font">
     <header>
-        <nav class="navber display-flex">
-                <div class="a display-flex">
-                    <h3 class="company-name"><i>Fitness</i></h3>
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-            <ul class="navber-btn display-flex">
-                <li class="">
-                    <a class="nav-links  btn-primary" href="">Home</a>
-                </li>
-                <li class="btn">
-                    <a class="nav-link" href="">Service</a>
-                </li>
-                <li class="btn">
-                    <a class="nav-link" href="">Contact</a>
-                </li>
-                <li class="btn">
-                    <a class="nav-link" href="">About</a>
-                </li>
-                <li></li>
+        <nav class="navbar">
+            <i class="brand text-full-gray"><h3>Fitness</h3></i>
+            <ul class="nav-links">
+                <li class="nav-itemsp"><a href="" class="nav-linksp text-gray">Home</a></li>
+                <li class="nav-item"><a href="" class="nav-link text-gray">Service</a></li>
+                <li class="nav-item"><a href="" class="nav-link text-gray">Contact</a></li>
+                <li class="nav-item"><a href="" class="nav-link text-gray">About</a></li>
             </ul>
         </nav>
-        <div class="banner display-flex">
+        
+        <section class="banner">
             <div class="banner-detail">
-                <h2 class="banner-tittle white-text">
-                    Get body in shape & stay healthy
-                </h2>
-                <p class="banner-description">
-                    A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!
-                </p>
-                
+                <h3 class="card-tittle text-full-gray">Get body in shape & stay healthy</h3>
+                <p class="card-description">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
                 <div class="banner-btns">
-                    <button class="join-btn btn-primary nav-links">Join Club Now!</button><button class="download-btn btn-primary">Download App</button>
+                    <button class="join-btn">Join Club Now!</button><button class="download-btn">Download App</button>
                 </div>
-                
             </div>
-            <div class="banner-photo">
-                <img src="images/Images 2.png" alt="" class="photo">
-                
-                <button class="img-btn-1 gray-text">
-                    <span id="gap"></span>
-                    <span><h2 class="btn-number">350+</h2><br>
-                    <h3 class="btn-name">Video tutorial</h3></span>
-                </button>
-                <button id="asd" class="img-btn-2"><span class="btn-2-number">500+</span><br><br><span class="btn-2-name">Free Workout Videos</span>
-                </button>
+            <div class="card-picture">
+                <img src="images/Images 2.png" alt="" id="boy">
+                <div>
+                    <button id="card-btn" class="btn-primary">
+                        <span id="btn-gap"></span>
+                        <span id="btn-number">350+</span>
+                        <br>
+                        <span id="btn-name">Video tutorial</span>
+                    </button>
+                    <button id="card-btn-2" class="btn-primary-basd">
+                        <span id="btn-number2">500+</span>
+                        <br>
+                        <span id="btn-name2">Free Workout Videos</span>
+                    </button>
+                </div>
             </div>
-        </div>
+        </section>
+       
     </header>
     <main>
-        
+        <section class="habit">
+            <h3 class="habit-tittle">Change Your Habits</h3>
+            <p class="habit-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+            <div class="habit-items">
+                <div class="habit-item">
+                    <img src="images/image 3.png" alt="" class="habit-img">
+                    <h4 class="item-tittle">Movement</h4>
+                    <p class="item-description">We believe fitness should be accessible to everyone</p>
+                </div>
+                <div class="habit-item">
+                    <img src="images/image 2.png" alt="" class="habit-img">
+                    <h4 class="item-tittle">Time</h4>
+                    <p class="item-description">We believe fitness should be accessible to everyone</p>
+                </div>
+                <div class="habit-item">
+                    <img src="images/image 4.png" alt="" class="habit-img">
+                    <h4 class="item-tittle">Practice</h4>
+                    <p class="item-description">We believe fitness should be accessible to everyone</p>
+                </div>
+                <div class="habit-item">
+                    <img src="images/image 5.png" alt="" class="habit-img">
+                    <h4 class="item-tittle">Weight Loss</h4>
+                    <p class="item-description">We believe fitness should be accessible to everyone</p>
+                </div>
+            </div>
+        </section>
+        <section class="run">
+            <div class="run-detail">
+                <h3 class="run-tittle">Run an Extra 
+                    Mile Easily</h3>
+                <p class="run-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+                <button class="run-btn">Join Now</button>
+            </div>
+            <img src="images/Screenshot_2.png" alt="" class="run-img">
+        </section>
     </main>
     <footer>
 
