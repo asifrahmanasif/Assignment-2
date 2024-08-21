@@ -15,7 +15,6 @@ body{
     /* background-color: rgb(32, 104, 80); */
 }
 
-
 /* header part  */
 /* navber */
 .navbar{
@@ -359,7 +358,64 @@ option{
     background: rgb(230, 83, 60);
     margin-top: 40px;
 }
+/* section 04 meet our team */
+.team{
+    margin-top: 100px;
+}
+.team-tittle{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+.team-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    width: 671px;
+    margin: 0 auto;
 
+}
+.meet-team{
+    width: 1060px;
+    height: 604px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 50px;
+    padding: 10px 10px 24px 35px;
+    
+}
+.teams-img{
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 0.2),url(image);
+}
+.teams-tittle{
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 900;
+    text-align: left;
+    margin: 0px;
+    margin-top: -64px;
+    margin-left: 20px;
+}
+.teams-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    margin: 0px;
+    margin-left: 20px;
+
+}
 
 
 /* media quarry for mobile phone */
@@ -496,6 +552,30 @@ option{
     .row-2{
         grid-column: span 2;
     }
+    /* section 04 meet our team */
+    .team-tittle{
+        font-size: 2rem;
+    }
+    .team-description{
+        width: 309px;
+        margin: 0 auto;
+    }
+    .meet-team{
+        grid-template-columns: repeat(1, 1fr);
+        width: 300px;
+        height: 1850px;
+        gap: 20px;
+        padding: 10px 0px 10px 10px;
+        margin: 10px;
+        margin-left: 15px;
+        margin-right: 0px;
+    }
+    .teams-img{
+        width: 290px;
+        height: 200x;
+        margin: 0 auto;
+    }
+
 }
 
 /* medium device quarry */
@@ -578,5 +658,20 @@ option{
         margin: 0 auto;
         margin: 0px 0px;
         margin-left: -96px;
+    }
+    /* section 04 meet our team */
+    .meet-team{
+        width: 677px;
+        height: 605px;
+        /* gap: 20px; */
+        padding: 10px 0px 10px 26px;
+        margin: 10px;
+        margin-left: 32px;
+        margin-right: 0px;
+    }
+    .teams-img{
+        width: 199px;
+        height: 272x;
+        margin: 0 auto;
     }
 }
